@@ -1,0 +1,15 @@
+:root {
+  --black: #181818;
+  --dark-gray: #474747;
+  --light-gray: #ebe9ea;
+  --white: #f6f6f6;
+  --primary-font: 'Montserrat', sans-serif;
+  --extra-bold: 700;
+  --bold: 600;
+  --regular: 500;
+  --title-mobile: 2.8rem;
+  --subtitle: 2.4rem;
+  --text-mobile: 1.6rem;
+  --title-desktop: 3.2rem;
+  --text-desktop: 1.8rem;
+}

@@ -1,0 +1,37 @@
+.banner {
+  background-image: url(/img/Air-Jordan-1-Retro-High.png);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 37.7rem;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 3.7rem;
+  position: relative;
+  width: 41.4rem;
+  z-index: 1;
+}
+
+.banner::before {
+  background-color: rgba(24, 24, 24, 0.6);
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.banner__title {
+  font-size: var(--text-mobile);
+  font-weight: var(--extra-bold);
+  padding-bottom: 1.2rem;
+}
+
+.banner__text {
+  font-size: var(--text);
+  font-weight: var(--bold);
+  line-height: 2.25rem;
+}

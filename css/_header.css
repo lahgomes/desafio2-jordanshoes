@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+}
+
+.header__frete {
+  align-items: center;
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  font-size: var(--text);
+  height: 6rem;
+  justify-content: center;
+}
+
+.header__title {
+  align-items: center;
+  display: flex;
+  font-size: var(--subtitle);
+  font-weight: var(--bold);
+  height: 6rem;
+  justify-content: center;
+}
