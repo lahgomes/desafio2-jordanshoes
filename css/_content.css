@@ -1,0 +1,40 @@
+.content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.content__title {
+  font-size: var(--title-mobile);
+  font-weight: bold;
+  padding-top: 5rem;
+}
+
+.content__text {
+  font-size: var(--text-mobile);
+  font-weight: var(--regular);
+  line-height: 2.8rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.showcase {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+}
+
+.showcase__shoes {
+  align-items: center;
+  background-color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  height: 30.2rem;
+  justify-content: center;
+  margin-top: 3rem;
+  width: 37.4rem;
+}

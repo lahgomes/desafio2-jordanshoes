@@ -8,7 +8,7 @@
   padding-left: 2rem;
   padding-right: 3.7rem;
   position: relative;
-  width: 41.4rem;
+  width: 100%;
   z-index: 1;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .banner__title {
-  font-size: var(--text-mobile);
+  font-size: var(--title-mobile);
   font-weight: var(--extra-bold);
   padding-bottom: 1.2rem;
 }
@@ -33,5 +33,5 @@
 .banner__text {
   font-size: var(--text);
   font-weight: var(--bold);
-  line-height: 2.25rem;
+  line-height: 2.5rem;
 }
