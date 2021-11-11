@@ -1,5 +1,6 @@
 .banner {
   background-image: url(/img/Air-Jordan-1-Retro-High.png);
+  background-size: cover;
   color: var(--white);
   display: flex;
   flex-direction: column;
@@ -31,7 +32,24 @@
 }
 
 .banner__text {
-  font-size: var(--text);
+  font-size: var(--text-mobile);
   font-weight: var(--bold);
   line-height: 2.5rem;
+}
+
+@media (min-width: 700px) {
+  .banner {
+    background-image: url(/img/Air-Jordan-1-Retro-High-OG-Wmns-desktop.png);
+    background-size: cover;
+    padding: 0 5rem;
+  }
+
+  .banner__title {
+    font-size: var(--title-desktop);
+  }
+
+  .banner__text {
+    font-size: var(--text-desktop);
+    width: 50rem;
+  }
 }

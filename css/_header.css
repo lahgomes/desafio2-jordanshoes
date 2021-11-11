@@ -7,7 +7,7 @@
   background-color: var(--black);
   color: var(--white);
   display: flex;
-  font-size: var(--text);
+  font-size: var(--text-mobile);
   height: 6rem;
   justify-content: center;
 }
